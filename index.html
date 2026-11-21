@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Rustic Crumb | Artisan Bakery</title>
+  <meta name="description" content="Handcrafted artisan sourdough, rustic loaves, and golden French pastries baked fresh daily with traditional slow fermentation." />
+  
+  <!-- Google Fonts: Cormorant Garamond (Artisanal Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">&#10042;</span>
+        <span class="logo-text">The Rustic Crumb</span>
+      </a>
+
+      <!-- Navigation Menu with 2 Required Items -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#our-story" class="nav-link">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-us" class="nav-link nav-link-cta">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section with Bread Assortments Background -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Handcrafted &middot; Slow-Fermented &middot; Naturally Leavened</p>
+        <h1 class="hero-title">Warm From the Hearth, Baked with Soul</h1>
+        <p class="hero-subtitle">
+          Experience the deep aroma and crackling crust of traditional artisan breads, made daily with organic stoneground flours and heirloom wild starters.
+        </p>
+        <div class="hero-actions">
+          <a href="#our-story" class="btn btn-primary">Discover Our Craft</a>
+          <a href="#contact-us" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <a href="#our-story" class="scroll-down-indicator" aria-label="Scroll to Our Story">
+        <span class="mouse-icon">
+          <span class="wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="section story-section" id="our-story">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-image-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1000&q=80" 
+              alt="Artisan baker dusting flour on freshly baked rustic sourdough bread" 
+              class="story-img"
+              loading="lazy"
+            />
+            <div class="story-badge">
+              <span class="badge-number">36h</span>
+              <span class="badge-text">Cold Fermentation Process</span>
+            </div>
+          </div>
+          <div class="story-content">
+            <span class="section-label">Tradition & Heritage</span>
+            <h2 class="section-title">Our Story</h2>
+            <div class="accent-line"></div>
+            <p class="story-lead">
+              At The Rustic Crumb, bread is not just food—it is patience, passion, and an ancient craft passed through generations.
+            </p>
+            <p class="story-paragraph">
+              Founded in 2014, our neighborhood bakery began with a 50-year-old sourdough culture and a wood-fired hearth oven. We reject shortcuts, commercial yeasts, and artificial preservatives. Each loaf takes up to 36 hours from flour mixing to stone-bake, unlocking deep wheaty complexity, an airy interior, and a blistered golden crust.
+            </p>
+            <p class="story-paragraph">
+              Every morning before dawn, our bakers shape sourdough batards, rustic baguettes, seeded rye, and enriched brioche by hand. We believe in wholesome ingredients, honoring the soil and farmers who nurture our heirloom grains.
+            </p>
+            <div class="story-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">&#10003;</span>
+                <div>
+                  <strong>100% Organic Grains</strong>
+                  <p>Sourced directly from certified family mills.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">&#10003;</span>
+                <div>
+                  <strong>Wild Natural Starter</strong>
+                  <p>Gentle on digestion and naturally probiotic.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Assortment Highlights Preview -->
+    <section class="section specialties-section">
+      <div class="container text-center">
+        <span class="section-label">Daily Selection</span>
+        <h2 class="section-title">Our Daily Bakes</h2>
+        <div class="accent-line center"></div>
+        <p class="section-subtitle">
+          Fresh out of our hearth every morning at 7:00 AM.
+        </p>
+
+        <div class="specialties-grid">
+          <div class="specialty-card">
+            <div class="card-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=700&q=80" 
+                alt="Country Sourdough Boule" 
+                loading="lazy"
+              />
+            </div>
+            <div class="card-details">
+              <h3>Country Sourdough Boule</h3>
+              <p>Crisp golden blistered crust with an open crumb, gentle tang, and deep roasted malt notes.</p>
+              <span class="price">$8.50</span>
+            </div>
+          </div>
+
+          <div class="specialty-card">
+            <div class="card-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=700&q=80" 
+                alt="French Artisan Baguette" 
+                loading="lazy"
+              />
+            </div>
+            <div class="card-details">
+              <h3>Traditional French Baguette</h3>
+              <p>Audibly crunchy exterior, creamy honeycomb crumb, and authentic sweet wheat fragrance.</p>
+              <span class="price">$4.80</span>
+            </div>
+          </div>
+
+          <div class="specialty-card">
+            <div class="card-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" 
+                alt="Multi-Seed Harvest Loaf" 
+                loading="lazy"
+              />
+            </div>
+            <div class="card-details">
+              <h3>Multi-Seed Harvest Loaf</h3>
+              <p>Loaded with toasted flax, sesame, pumpkin seeds, and sunflower kernels for a wholesome nutty profile.</p>
+              <span class="price">$9.20</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="section contact-section" id="contact-us">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">Say Hello</span>
+          <h2 class="section-title">Contact Us</h2>
+          <div class="accent-line center"></div>
+          <p class="section-subtitle">
+            Have questions about custom pre-orders, wholesale, or dietary ingredients? We’d love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-icon">&#128205;</div>
+              <div class="info-text">
+                <h3>Our Bakery</h3>
+                <p>42 Hearthstone Lane, Baker’s Quarter<br />Artisan District, Singapore 188021</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">&#128339;</div>
+              <div class="info-text">
+                <h3>Baking Hours</h3>
+                <p>Tuesday &ndash; Sunday: 7:00 AM &ndash; 4:00 PM<br />(or until sold out)<br /><em>Closed on Mondays</em></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">&#9993;</div>
+              <div class="info-text">
+                <h3>Direct Inquiries</h3>
+                <p>Email: <a href="mailto:hello@therusticcrumb.com">hello@therusticcrumb.com</a><br />Phone: <a href="tel:+6567891234">+65 6789 1234</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <form id="contactForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Eleanor Vance" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="eleanor@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Inquiry Type</label>
+                <select id="subject" name="subject">
+                  <option value="general">General Inquiry</option>
+                  <option value="order">Pre-Order / Reserve Breads</option>
+                  <option value="events">Catering & Events</option>
+                  <option value="wholesale">Wholesale & Cafe Supply</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Let us know how we can help..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Send Message</button>
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-text">The Rustic Crumb</span>
+        <p>Crafting artisanal sourdough & European breads with heart and heritage.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#our-story">Our Story</a>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#hero">Back to Top &uarr;</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="currentYear"></span> The Rustic Crumb Artisan Bakery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
